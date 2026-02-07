@@ -5,12 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BenStel School System</title>
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
 </head>
 <body>
   <section class="header">
     <nav>
       <a href="index.html"><img src="../img/logo2.jpg" alt=""></a>
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
+        <i class="bx bx-x" onclick="hideMenu()" style="color: #fff;"></i>
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
@@ -19,10 +22,159 @@
           <li><a href="gallery.html">GALLERY</a></li>
         </ul>
       </div>
+      <i class="bx bx-menu bx-bounce" onclick="showMenu()" style="color: #fff;"></i>
     </nav>
     <div class="text-box">
       <h1>BenStel School System</h1>
+      <p>Welcome to our school system. We provide <br> quality education and a nurturing environment for all students.</p>
+      <a href="about.html" class="hero-btn">Learn More</a>
     </div>
   </section>
+<!--Course-->
+  <section class="course">
+    <h1>Programs We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Pre-School Education</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam blanditiis aliquid ut, praesentium suscipit fuga alias architecto dicta eos neque? Facilis qui voluptatibus neque delectus quasi ducimus fugit voluptas! Hic.</p>
+      </div>
+      <div class="course-col">
+        <h3>Grade School Education</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam blanditiis aliquid ut, praesentium suscipit fuga alias architecto dicta eos neque? Facilis qui voluptatibus neque delectus quasi ducimus fugit voluptas! Hic.</p>
+      </div>
+      <div class="course-col">
+        <h3>Junior High School Education</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam blanditiis aliquid ut, praesentium suscipit fuga alias architecto dicta eos neque? Facilis qui voluptatibus neque delectus quasi ducimus fugit voluptas! Hic.</p>
+      </div>
+    </div>
+
+  </section>
+    <!-- Campus -->
+  <section class="campus">
+    <h1>Our Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="../img/graduation-3.jpg" >
+        <div class="layer">
+          <h3>Our Compound</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="../img/graduation-5.jpg" >
+        <div class="layer">
+          <h3>Our Compound</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="../img/graduation.jpg" >
+        <div class="layer">
+          <h3>Our Compound</h3>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!--Facilities-->
+
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="../img/excursion.jpg" alt="">
+      <h3>The Best Excursion Ever</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laborum. Eos maiores</p>
+    </div>
+    <div class="facilities-col">
+      <img src="../img/past-students.jpg" alt="">
+      <h3>Our Past Students</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laborum. Eos maiores</p>
+    </div>
+    <div class="facilities-col">
+      <img src="../img/graduation-4.jpg" alt="">
+      <h3>Our School Dancers</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, laborum. Eos maiores</p>
+    </div>
+  </div>
+</section>
+
+<!--Testimonials-->
+
+<section class="testimonials">
+  <h1>What Our Students Says</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="row">
+    <div class="testimonial-col">
+      <img src="../img/logo.png">
+      <div>
+        <p>Our students are happy and engaged in their learning journey. They appreciate the supportive environment and quality education we provide.</p>
+        <h3>Stella Bonsu</h3>
+      </div>
+    </div>
+
+    <div class="testimonial-col">
+      <img src="../img/logo.png">
+      <div>
+        <p>Our students are happy and engaged in their learning journey. They appreciate the supportive environment and quality education we provide.</p>
+        <h3>Maame Boaduwaa</h3>
+      </div>
+    </div>
+
+    <div class="testimonial-col">
+      <img src="../img/logo.png">
+      <div>
+        <p>Our students are happy and engaged in their learning journey. They appreciate the supportive environment and quality education we provide.</p>
+        <h3>Dansowaa Agyei</h3>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Call To Action -->
+<section class="cta">
+  <h1>Enroll Now To Our School</h1>
+  <a href="contact.html" class="hero-btn">Contact Us</a>
+</section>
+
+<!--  Footer -->
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur praesentium quasi, eligendi iste modi, quis harum in dignissimos</p>
+  <div class="icons">
+    <i class="bx bxl-facebook-circle"></i>
+    <i class="bx bxl-whatsapp-square"></i>
+    <i class="bx bxl-instagram-alt"></i>
+    <i class="bx bxl-skype"></i>
+  </div>
+  <p>Made by <a href="pincecv.netlify.app" class="author-name">Ameyaw Prince</a></p>
+</section>
+
+
+
+
+
+
+
+
+
+<!-- JAvaScript for Toggle Menu -->
+  <script>
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
 </body>
 </html>
